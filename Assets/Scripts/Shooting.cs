@@ -13,10 +13,12 @@ public class Shooting : MonoBehaviour {
 
 	private AudioSource cannonSound;
 
+	// Use this for initialization
 	void Start () {
 		cannonSound = GetComponent<AudioSource> ();
 	}
 	
+	// Update is called once per frame
 	public void Shoot () {
 		if (Time.time > nextFire) {
 			nextFire = Time.time + fireRate;

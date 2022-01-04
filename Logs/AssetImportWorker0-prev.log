@@ -11,19 +11,19 @@ C:\UnityEditors\2021.2.0a8\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Unity Projects/BG Games Github/Unity5-ARG-Game-Android-master
+C:/Unity Projects/BG Games Github/Repos/AR-MiniGames
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60723
-Successfully changed project path to: C:/Unity Projects/BG Games Github/Unity5-ARG-Game-Android-master
-C:/Unity Projects/BG Games Github/Unity5-ARG-Game-Android-master
+50830
+Successfully changed project path to: C:/Unity Projects/BG Games Github/Repos/AR-MiniGames
+C:/Unity Projects/BG Games Github/Repos/AR-MiniGames
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 56.67 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 57.82 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.0a8 (05e6d22b19f7)
 [Subsystems] Discovering subsystems at path C:/UnityEditors/2021.2.0a8/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Unity Projects/BG Games Github/Unity5-ARG-Game-Android-master/Assets
+[Subsystems] Discovering subsystems at path C:/Unity Projects/BG Games Github/Repos/AR-MiniGames/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,19 +35,19 @@ Initialize mono
 Mono path[0] = 'C:/UnityEditors/2021.2.0a8/Editor/Data/Managed'
 Mono path[1] = 'C:/UnityEditors/2021.2.0a8/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/UnityEditors/2021.2.0a8/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/UnityEditors/2021.2.0a8/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000811 seconds.
+Registered in 0.000822 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 60.66 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 57.18 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.664 seconds
+- Completed reload, in  1.660 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002744 seconds.
+Registered in 0.002422 seconds.
 Begin MonoManager ReloadAssembly
 OnLevelWasLoaded was found on KeepAliveBehaviour
 This message has been deprecated and will be removed in a later version of Unity.
@@ -61,53 +61,84 @@ Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.812 seconds
+- Completed reload, in  0.806 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.17 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2751 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 103.8 MB.
 System memory in use after: 104.0 MB.
 
 Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3251.
-Total: 1.799700 ms (FindLiveObjects: 0.204000 ms CreateObjectMapping: 0.097700 ms MarkObjects: 1.441600 ms  DeleteObjects: 0.055700 ms)
+Total: 1.733700 ms (FindLiveObjects: 0.260400 ms CreateObjectMapping: 0.141900 ms MarkObjects: 1.281100 ms  DeleteObjects: 0.049700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts
-  artifactKey: Guid(3ac9b5dbbdd102d4ba57dffd9cb6bdb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(3ac9b5dbbdd102d4ba57dffd9cb6bdb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce4040f3001f493b7b38577857974d2') in 0.005533 seconds 
+  path: Assets/Editor
+  artifactKey: Guid(32d57e016410c4442a3373afa6a68f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor using Guid(32d57e016410c4442a3373afa6a68f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6a3c07d75edd4ca087549570d7a27a') in 0.003841 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Scenes/InitialScene.unity
-  artifactKey: Guid(fb90526c1114f624c9e3e9555e172da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/InitialScene.unity using Guid(fb90526c1114f624c9e3e9555e172da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f59c0641e495f6512e745c4503cf20') in 0.010902 seconds 
+  Time since last request: 19.674947 seconds.
+  path: Assets/Vuforia/Scripts/WireframeTrackableEventHandler.cs
+  artifactKey: Guid(d3b5df557a1c1cd47bf44ce2b4bff733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vuforia/Scripts/WireframeTrackableEventHandler.cs using Guid(d3b5df557a1c1cd47bf44ce2b4bff733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6f273c8110b831ec5732bc68744435') in 0.015474 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1032.159188 seconds.
-  path: Assets/Scripts/Bullet.cs
-  artifactKey: Guid(1531b301001927a499189e5dc81014fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Bullet.cs using Guid(1531b301001927a499189e5dc81014fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1d8344cd7050bca6e33ee646ab2425') in 0.013398 seconds 
+  Time since last request: 7.793590 seconds.
+  path: Assets/Vuforia/Scripts/DeviceTrackerBehaviour.cs
+  artifactKey: Guid(074a7d74ac7d2014880f172789be5fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vuforia/Scripts/DeviceTrackerBehaviour.cs using Guid(074a7d74ac7d2014880f172789be5fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6a9abed51e0e0d66abcc3f595899f6') in 0.001277 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.776834 seconds.
-  path: Assets/Scripts/fireTest.cs
-  artifactKey: Guid(758c2243feb19214c8b9176ee09e67eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/fireTest.cs using Guid(758c2243feb19214c8b9176ee09e67eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a6c78b25f8a73ca1e97998b5eaef8a') in 0.001680 seconds 
+  Time since last request: 293.431575 seconds.
+  path: Assets/Vuforia/Scripts/BackgroundPlaneBehaviour.cs
+  artifactKey: Guid(b62dc8c390ae00c41a0ae52d79877662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vuforia/Scripts/BackgroundPlaneBehaviour.cs using Guid(b62dc8c390ae00c41a0ae52d79877662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16bf4251516519ab50f83e1ea2a55c2f') in 0.001344 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.228136 seconds.
-  path: Assets/Scripts/LaserRay.cs
-  artifactKey: Guid(fbb6f99bd4890d54b871e970b8b6cf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LaserRay.cs using Guid(fbb6f99bd4890d54b871e970b8b6cf51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f7abba896f2a392780988d07c990ec') in 0.001455 seconds 
+  Time since last request: 52.049928 seconds.
+  path: Assets/Vuforia/Scripts/BackgroundPlaneBehaviour.cs
+  artifactKey: Guid(b62dc8c390ae00c41a0ae52d79877662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vuforia/Scripts/BackgroundPlaneBehaviour.cs using Guid(b62dc8c390ae00c41a0ae52d79877662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28ea4b3e6ea52241810557d6941b906') in 0.000859 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.861182 seconds.
-  path: Assets/Scripts/GameSettings.cs
-  artifactKey: Guid(7b7b8ba4e6827f345bdf418b40f316a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameSettings.cs using Guid(7b7b8ba4e6827f345bdf418b40f316a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44dac740803a204f9a1b81e02be094cd') in 0.001293 seconds 
+  Time since last request: 273.329444 seconds.
+  path: Assets/Vuforia/Scripts/BackgroundPlaneBehaviour.cs
+  artifactKey: Guid(b62dc8c390ae00c41a0ae52d79877662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vuforia/Scripts/BackgroundPlaneBehaviour.cs using Guid(b62dc8c390ae00c41a0ae52d79877662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce869f9e188ac933ef42aa945cb53fdf') in 0.001261 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002655 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.817 seconds
+Platform modules already initialized, skipping
+OnLevelWasLoaded was found on KeepAliveBehaviour
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+OnLevelWasLoaded was found on WebCamBehaviour
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(65536) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2737 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.3 MB.
+System memory in use after: 102.5 MB.
+
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 3254.
+Total: 2.154000 ms (FindLiveObjects: 0.268400 ms CreateObjectMapping: 0.150900 ms MarkObjects: 1.713000 ms  DeleteObjects: 0.020600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

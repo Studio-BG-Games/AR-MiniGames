@@ -15,11 +15,11 @@ C:/Unity Projects/BG Games Github/Repos/AR-MiniGames
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50830
+55384
 Successfully changed project path to: C:/Unity Projects/BG Games Github/Repos/AR-MiniGames
 C:/Unity Projects/BG Games Github/Repos/AR-MiniGames
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 57.82 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 66.15 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.0a8 (05e6d22b19f7)
 [Subsystems] Discovering subsystems at path C:/UnityEditors/2021.2.0a8/Editor/Data/Resources/UnitySubsystems
@@ -35,19 +35,19 @@ Initialize mono
 Mono path[0] = 'C:/UnityEditors/2021.2.0a8/Editor/Data/Managed'
 Mono path[1] = 'C:/UnityEditors/2021.2.0a8/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/UnityEditors/2021.2.0a8/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/UnityEditors/2021.2.0a8/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000822 seconds.
+Registered in 0.001124 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 57.18 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 63.29 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.660 seconds
+- Completed reload, in  2.037 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002422 seconds.
+Registered in 0.003187 seconds.
 Begin MonoManager ReloadAssembly
 OnLevelWasLoaded was found on KeepAliveBehaviour
 This message has been deprecated and will be removed in a later version of Unity.
@@ -58,55 +58,25 @@ This message has been deprecated and will be removed in a later version of Unity
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
 
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.806 seconds
+- Completed reload, in  0.952 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2751 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.8 MB.
-System memory in use after: 104.0 MB.
+System memory in use before: 103.7 MB.
+System memory in use after: 103.9 MB.
 
 Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3251.
-Total: 1.733700 ms (FindLiveObjects: 0.260400 ms CreateObjectMapping: 0.141900 ms MarkObjects: 1.281100 ms  DeleteObjects: 0.049700 ms)
+Total: 2.344800 ms (FindLiveObjects: 0.295000 ms CreateObjectMapping: 0.164500 ms MarkObjects: 1.650400 ms  DeleteObjects: 0.234000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Editor
-  artifactKey: Guid(32d57e016410c4442a3373afa6a68f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor using Guid(32d57e016410c4442a3373afa6a68f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6a3c07d75edd4ca087549570d7a27a') in 0.003841 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.674947 seconds.
-  path: Assets/Vuforia/Scripts/WireframeTrackableEventHandler.cs
-  artifactKey: Guid(d3b5df557a1c1cd47bf44ce2b4bff733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Vuforia/Scripts/WireframeTrackableEventHandler.cs using Guid(d3b5df557a1c1cd47bf44ce2b4bff733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6f273c8110b831ec5732bc68744435') in 0.015474 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.793590 seconds.
-  path: Assets/Vuforia/Scripts/DeviceTrackerBehaviour.cs
-  artifactKey: Guid(074a7d74ac7d2014880f172789be5fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Vuforia/Scripts/DeviceTrackerBehaviour.cs using Guid(074a7d74ac7d2014880f172789be5fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6a9abed51e0e0d66abcc3f595899f6') in 0.001277 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 293.431575 seconds.
-  path: Assets/Vuforia/Scripts/BackgroundPlaneBehaviour.cs
-  artifactKey: Guid(b62dc8c390ae00c41a0ae52d79877662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Vuforia/Scripts/BackgroundPlaneBehaviour.cs using Guid(b62dc8c390ae00c41a0ae52d79877662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16bf4251516519ab50f83e1ea2a55c2f') in 0.001344 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 52.049928 seconds.
-  path: Assets/Vuforia/Scripts/BackgroundPlaneBehaviour.cs
-  artifactKey: Guid(b62dc8c390ae00c41a0ae52d79877662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Vuforia/Scripts/BackgroundPlaneBehaviour.cs using Guid(b62dc8c390ae00c41a0ae52d79877662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28ea4b3e6ea52241810557d6941b906') in 0.000859 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 273.329444 seconds.
-  path: Assets/Vuforia/Scripts/BackgroundPlaneBehaviour.cs
-  artifactKey: Guid(b62dc8c390ae00c41a0ae52d79877662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Vuforia/Scripts/BackgroundPlaneBehaviour.cs using Guid(b62dc8c390ae00c41a0ae52d79877662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce869f9e188ac933ef42aa945cb53fdf') in 0.001261 seconds 
+  path: Assets/Vuforia/Scripts/CylinderTargetBehaviour.cs
+  artifactKey: Guid(5de192e8410404742a17c03135e5ab4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vuforia/Scripts/CylinderTargetBehaviour.cs using Guid(5de192e8410404742a17c03135e5ab4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e975c7e75a51053056265035bc7bda8') in 0.022700 seconds 
